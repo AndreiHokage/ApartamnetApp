@@ -1,0 +1,3 @@
+45,2302,Mihai,Garsoniera
+45,2302,Mihai,Garsoniera
+31,1200,Radu,penthouse

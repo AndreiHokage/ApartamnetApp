@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Source Files\AppCoord">
+      <UniqueIdentifier>{bd700fab-bc9d-4c92-822a-2254e31d7c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Domain">
+      <UniqueIdentifier>{c21f81f9-6674-4379-ae3a-4d6fcb9f8ae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Domain_Undo">
+      <UniqueIdentifier>{21e5ac18-28b4-450e-b51e-319a84ede365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Infrastructura">
+      <UniqueIdentifier>{e377a275-2555-4c33-afb0-32c5d71c0596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller_Locatari">
+      <UniqueIdentifier>{5b9cc6b4-a8dd-4d99-807a-afc353c4e5fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Presenting">
+      <UniqueIdentifier>{ac547241-29cf-4a54-92b9-c1c5a0492787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyVector">
+      <UniqueIdentifier>{b160b258-be1b-464d-af40-8b60b75e988a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exceptions">
+      <UniqueIdentifier>{b1575fdc-da55-4208-b775-634d8919caab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tests">
+      <UniqueIdentifier>{2b382f86-1542-4e6c-b671-2d4278cbf848}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="ApartamnetApp.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="ApartamnetApp.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="ApartamnetApp.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="ApartamnetApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AppCoord.cpp">
+      <Filter>Source Files\AppCoord</Filter>
+    </ClCompile>
+    <ClCompile Include="Cos.cpp">
+      <Filter>Source Files\Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="DTO_tip_locatar.cpp">
+      <Filter>Source Files\Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Locatar.cpp">
+      <Filter>Source Files\Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="Validator.cpp">
+      <Filter>Source Files\Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="UndoAction.cpp">
+      <Filter>Source Files\Domain_Undo</Filter>
+    </ClCompile>
+    <ClCompile Include="Repo_locatari.cpp">
+      <Filter>Source Files\Infrastructura</Filter>
+    </ClCompile>
+    <ClCompile Include="Repo_locatari_file.cpp">
+      <Filter>Source Files\Infrastructura</Filter>
+    </ClCompile>
+    <ClCompile Include="RepoLab.cpp">
+      <Filter>Source Files\Infrastructura</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller_Locatari.cpp">
+      <Filter>Source Files\Controller_Locatari</Filter>
+    </ClCompile>
+    <ClCompile Include="Iterator_myvector.cpp">
+      <Filter>Source Files\MyVector</Filter>
+    </ClCompile>
+    <ClCompile Include="Myvector.cpp">
+      <Filter>Source Files\MyVector</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source Files\Presenting</Filter>
+    </ClCompile>
+    <ClCompile Include="Error.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_all.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ApartGUI.cpp">
+      <Filter>Source Files\Presenting</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CosGUI.cpp">
+      <Filter>Source Files\Presenting</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>Source Files\Presenting</Filter>
+    </ClCompile>
+    <ClCompile Include="HistogramaGUI.cpp">
+      <Filter>Source Files\Presenting</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\AppCoord</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTableView.cpp">
+      <Filter>Source Files\Presenting</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppCoord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller_Locatari.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DTO_tip_locatar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator_myvector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Locatar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Myvector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Repo_locatari.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Repo_locatari_file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RepoLab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UndoAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Validator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ApartGUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HistogramaGUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTableView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="apar_test.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="apartament.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="f1.csv">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="fisguicart.csv">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

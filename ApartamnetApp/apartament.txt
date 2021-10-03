@@ -1,0 +1,17 @@
+1;1200;Andrei;Garsoniera;
+2;2000;Cosmin;Casa;
+3;1324;Jiraya;Apartament;
+67;864;Sasuke;Penthouse;
+671;546;Orochimaru;Gradina;
+23;3257;Pain;Cabana;
+25;324;Kurama;Camp;
+19;4655;Pain;Hanelore;
+56;1001;Minato Namikaze;Camp;
+61;19;Hagoromo;Garsoniera;
+80;10009;Kushina;Cotet;
+89;8;Ratusca Cea urata;Hangar;
+26;250;Balanici Andreea;hotel;
+101;23;Contantin;Caruta;
+123;6734;Otelu;Hotel5stele;
+82;10;Antiopia;Pensiune;
+234;22;kamikaze;benzinarie;

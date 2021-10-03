@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ApartamnetApp", "ApartamnetApp\ApartamnetApp.vcxproj", "{46C1C5BE-B364-4B76-9E13-58D6808CAD3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46C1C5BE-B364-4B76-9E13-58D6808CAD3D}.Debug|x64.ActiveCfg = Debug|x64
+		{46C1C5BE-B364-4B76-9E13-58D6808CAD3D}.Debug|x64.Build.0 = Debug|x64
+		{46C1C5BE-B364-4B76-9E13-58D6808CAD3D}.Release|x64.ActiveCfg = Release|x64
+		{46C1C5BE-B364-4B76-9E13-58D6808CAD3D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5CC65FE-6E59-4980-AEF1-1BC1B70A1CE6}
+	EndGlobalSection
+EndGlobal
